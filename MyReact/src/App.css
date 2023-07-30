@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+boady {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #d01c28;
+  --whit: #ffffff;
+  --gary: #5a5959;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 72px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  cursor: pointer;
+}
+button {
+  all: unset;
+  background: var(--red);
+  padding: 10px 20px;
+  color: var(--whit);
+}
+/* Hero Section */
+
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeroContent {
+  max-width: 550px;
+  max-height: 613px;
+  gap: 36px;
+}
+.Hero h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.Hero p {
+  width: 404px;
+  height: 91px;
+  font-size: 16px;
+  color: var(--gary);
+}
+.category {
+  all: unset;
+  margin: 10px;
+  border: 1px solid var(--gary);
+  padding: 7px 16px;
+  color: var(--gary);
+  font-size: 18px;
+  font-weight: 600;
+}
+.HeroImage img {
+  width: 530px;
+  height: 487px;
+}
+.available {
+  padding-bottom: 20px;
+  background-color: #d01c28;
+}
